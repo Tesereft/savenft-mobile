@@ -1,16 +1,17 @@
 import React, { useEffect } from "react"
 import { View } from "react-native"
-import { CustomButton } from "../../components";
-import { CollectionStackParamList } from "@/interfaces/route.typing";
+import { CollectionStackParamList } from "src/interfaces/route.typing";
 import { StackNavigationProp } from "@react-navigation/stack";
 import { useNavigation, useRoute } from "@react-navigation/native";
-import { RootRouteProps } from "../../interfaces/collectionview.typing";
-import { createCollectionAction, getCollectionAction } from "../../services/api";
+
+import { CustomButton } from "src/components";
+import { RootRouteProps } from "src/interfaces/collectionview.typing";
+import { createCollectionAction, getCollectionAction } from "src/services/api";
+import ScrollResults from "src/components/ScrollResults";
+import SearchArtwork from "src/components/SearchArtwork";
+import EmptyState from 'src/components/EmptyState';
+import { useModal } from "src/context";
 import { styles } from "./styles";
-import ScrollResults from "../../components/ScrollResults";
-import SearchArtwork from "../../components/SearchArtwork";
-import EmptyState from '../../components/EmptyState';
-import { useModal } from "../../context";
 
 export const CollectionContainer = () => {
     const route = useRoute<RootRouteProps<'Create'>>();

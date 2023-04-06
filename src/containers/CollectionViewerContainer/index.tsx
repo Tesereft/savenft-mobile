@@ -5,16 +5,16 @@ import * as Clipboard from 'expo-clipboard';
 import { Icon, Text } from "@ui-kitten/components/ui";
 import { useRoute } from "@react-navigation/native";
 
-import { Collection } from "@/interfaces/collection.typing";
-import { RootRouteProps } from "@/interfaces/collectionview.typing";
+import { Collection } from "src/interfaces/collection.typing";
+import { RootRouteProps } from "src/interfaces/collectionview.typing";
 
-import { StarRate } from "../../components";
-import SearchArtwork from '../../components/SearchArtwork/index';
-import ScrollResults from '../../components/ScrollResults/index';
-import { loadCollectionAction, rateACollectionAction } from '../../services/api';
+import { StarRate } from "src/components";
+import SearchArtwork from 'src/components/SearchArtwork/index';
+import ScrollResults from 'src/components/ScrollResults/index';
+import { loadCollectionAction, rateACollectionAction } from 'src/services/api';
 import { styles } from "./styles";
-import EmptyState from '../../components/EmptyState/index';
-import { useModal } from "../../context";
+import EmptyState from 'src/components/EmptyState/index';
+import { useModal } from "src/context";
 
 
 export const CollectionViewerContainer = () => {

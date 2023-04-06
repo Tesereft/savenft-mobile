@@ -1,9 +1,8 @@
 import { Icon, Text } from '@ui-kitten/components/ui';
 import React from 'react'
 import { TouchableOpacity, View } from 'react-native';
-import { CustomInput } from '../Input';
+import { CustomInput } from 'src/components/Input';
 import { styles } from './styles';
-import { RootRouteProps } from '../../interfaces/collectionview.typing';
 
 export default function SearchArtwork({
     id,

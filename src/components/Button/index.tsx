@@ -1,6 +1,6 @@
 import { Button, Spinner } from "@ui-kitten/components/ui"
-import { ButtonProps } from "../../interfaces/button.typing"
-import { StyleSheet, View } from "react-native"
+import { ButtonProps } from "src/interfaces/button.typing"
+import { View } from "react-native"
 import { styles } from "./styles";
 
 export const CustomButton = (props: ButtonProps) => {

@@ -1,6 +1,6 @@
 import { KeyboardAvoidingView, Platform } from "react-native";
-import { HomeLayout } from "../layout/HomeLayout";
-import { CollectionContainer } from "../containers";
+import { HomeLayout } from "src/layout/HomeLayout";
+import { CollectionContainer } from "src/containers";
 
 export const CollectionCreationScreen = () => (
     <HomeLayout>

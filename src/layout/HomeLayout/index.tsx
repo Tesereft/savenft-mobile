@@ -6,8 +6,8 @@ import { styles } from "./styles";
 export const HomeLayout = ({children}: any) => (
   <Layout style={styles.layout}>
   <StatusBar style="light" />
-  <Image source={require("@assets/pattern.png")} style={styles.pattern} />
-  <Image source={require("@assets/tiny-logo.png")} style={styles.icon} />
+  <Image source={require("assets/pattern.png")} style={styles.pattern} />
+  <Image source={require("assets/tiny-logo.png")} style={styles.icon} />
     {children}
   </Layout>
 );

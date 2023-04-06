@@ -1,5 +1,4 @@
 import { Icon } from "@ui-kitten/components/ui";
-import { useState } from "react";
 import { Image, TouchableOpacity, View } from "react-native";
 import { styles } from "./style";
 

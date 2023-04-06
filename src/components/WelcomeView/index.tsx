@@ -1,9 +1,8 @@
-import { View } from "react-native"
 import { styles } from "./styles"
 import { Layout, Text } from "@ui-kitten/components/ui"
-import { CustomInput } from "../Input"
-import { CustomButton } from "../Button"
-import { IWelcomeProps } from "../../interfaces/welcome.typings"
+import { CustomInput } from "src/components/Input"
+import { CustomButton } from "src/components/Button"
+import { IWelcomeProps } from "src/interfaces/welcome.typings"
 
 export const WelcomeView = ({
     value,

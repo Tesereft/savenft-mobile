@@ -1,9 +1,8 @@
 import { useNavigation } from "@react-navigation/core"
-import { Layout, Text } from "@ui-kitten/components/ui"
 import { StackNavigationProp } from '@react-navigation/stack';
-import React, { useEffect } from "react"
-import { RootStackParamList } from "@/interfaces/route.typing"
-import { WelcomeView } from "../../components/WelcomeView";
+import React from "react"
+import { RootStackParamList } from "src/interfaces/route.typing"
+import { WelcomeView } from "src/components/WelcomeView";
 
 export const HomescreenContainer = () => {
     const [value, setValue] = React.useState('')

@@ -4,7 +4,7 @@ import { styles } from './styles';
 import { Icon, Text } from '@ui-kitten/components/ui'
 import { useNavigation } from '@react-navigation/native';
 import { StackNavigationProp } from '@react-navigation/stack';
-import { HomeStackParamList } from '@/interfaces/route.typing';
+import { HomeStackParamList } from 'src/interfaces/route.typing';
 
 export default function EmptyState() {
     const navigation = useNavigation<StackNavigationProp<HomeStackParamList>>();

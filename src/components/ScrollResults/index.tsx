@@ -1,8 +1,8 @@
 import React from 'react'
 import { ScrollView, View } from 'react-native';
 import { styles } from './styles';
-import { IScrollResultsProps } from '@/interfaces/scrollResults.typing';
-import { NFTData } from '../NFT';
+import { IScrollResultsProps } from 'src/interfaces/scrollResults.typing';
+import { NFTData } from 'src/components/NFT';
 import { Spinner } from '@ui-kitten/components';
 
 export default function ScrollResults({

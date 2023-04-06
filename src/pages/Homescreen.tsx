@@ -1,6 +1,6 @@
 import { KeyboardAvoidingView, Platform } from "react-native";
-import { HomescreenContainer } from "../containers";
-import { HomeLayout } from "../layout/";
+import { HomescreenContainer } from "src/containers";
+import { HomeLayout } from "src/layout/";
 
 export const HomeScreen = () => (
     <HomeLayout>

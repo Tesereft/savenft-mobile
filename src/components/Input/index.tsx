@@ -1,4 +1,4 @@
-import { InputProps } from "@/interfaces/input.typing"
+import { InputProps } from "src/interfaces/input.typing"
 import { Input, Text } from "@ui-kitten/components/ui"
 import { styles } from "./styles";
 

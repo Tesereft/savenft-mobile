@@ -1,4 +1,4 @@
-import { HomeScreen, CollectionScreen, CollectionCreationScreen } from "../pages/";
+import { HomeScreen, CollectionScreen, CollectionCreationScreen } from "src/pages/";
 
 export const routeList = [
     {
