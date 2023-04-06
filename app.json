@@ -1,5 +1,6 @@
 {
   "expo": {
+    "scheme": "savenft",
     "name": "SaveNFT",
     "slug": "SaveNFT",
     "version": "1.0.0",
@@ -8,8 +9,8 @@
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "resizeMode": "cover",
+      "backgroundColor": "#160C28"
     },
     "assetBundlePatterns": [
       "**/*"
@@ -20,7 +21,6 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
       }
     },
     "web": {
